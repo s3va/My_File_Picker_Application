@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/lorem_picsum_id"
+        android:icon="@drawable/baseline_grid_4x4_24"
+        android:title="View Lorem Picsum Pictures"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/pick_and_read_text_file_id"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="pick and read text file"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/settings_activity_id"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/title_activity_settings"
+        app:showAsAction="ifRoom" />
+</menu>
